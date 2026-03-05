@@ -8,11 +8,11 @@ format:
 ---
 
 ```{=html}
-<div style="position: relative; width: 100%; height: 400px; overflow: hidden; margin-top: -3em;">
+<div style="width: 100%; position: relative; overflow: hidden; aspect-ratio: 21 / 9;">
   <img src="images/group_pictures/psr.jpeg" alt="PSR" 
-       style="width: 100%; height: 100%; object-fit: cover; object-position: center; filter: brightness(0.9);">
+       style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;">
   
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; width: 90%;">
+  <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; background: rgba(0,0,0,0.2); text-align: center; padding: 20px;">
     <h2 style="color: white; font-size: clamp(1.5rem, 5vw, 3.5rem); margin: 0;">Welcome to The Jo Lab</h2>
     <p style="color: white; max-width: 800px; margin: 10px auto 0 auto; font-size: clamp(0.9rem, 2vw, 1.25rem);"> 
       We study functional genomics in plant environmental responses and development. We are part of the Plant Stress Resilience group at the Utrecht University in the Netherlands.
