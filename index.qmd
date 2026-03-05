@@ -8,7 +8,7 @@ format:
 ---
 
 ```{=html}
-<div style="width: 100%; position: relative; overflow: hidden; aspect-ratio: 21 / 9;">
+<div style="position: relative; width: 100vw; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; aspect-ratio: 21 / 9; overflow: hidden;">
   <img src="images/group_pictures/psr.jpeg" alt="PSR" 
        style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block;">
   
