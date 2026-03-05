@@ -1,0 +1,32 @@
+---
+format:
+  html:
+    page-layout: full
+    css: style.css
+    anchor-sections: false
+---
+
+<center>[ **Lab News**]{style="font-size: 24px;"}</center>
+
+------------------------------------------------------------------------
+
+### **February 1st, 2026**
+#### **The Jo Lab started!**
+
+As of today, our lab started!
+I'm super excited to join the Plant Stress Resilience group chaired by [**Rashmi Sasidharan**](https://www.linkedin.com/in/rashmi-sasidharan-9708ba9/). My research will focus on understanding how the interaction between transcription factors and chromatin states shape plant environmental responses. Since starting grad school I have dreamed about this moment and I hope to inspire the next generation of plant biologists with the same patience, care and dedication shown to me by the many mentors and colleagues who guided me throughout my journey.
+
+![](images/news/news001.jpg){fig-align="left" width="306"}
+
+![](images/news/news002.jpeg){width="600"}
+
+------------------------------------------------------------------------
+
+### **November 1st, 2025**
+#### **Leonardo Jo was awarded the prestigious VENI Grant**
+
+The Veni Grant is part of the NWO Talent Program and it is aimed at newly promoted researchers. Researchers eligible for a Veni grant have academic qualities that clearly exceed what is usual. The funding amounts to a maximum of €320,000.
+
+I'm very honored to have received this grant. We will focus in understanding the role of of pioneer factors in specifying chromatin accessible domains during developmental transitions.
+
+[**More Information**](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-veni/veni-2024)

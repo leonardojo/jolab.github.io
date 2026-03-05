@@ -1,0 +1,15 @@
+{
+  "hash": "d98c954b1ade7792484d5398af31728e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Untitled\"\noutput: github_document\n---\n\n\n\n## GitHub Documents\n\nThis is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.\n\n## Including Code\n\nYou can include R code in the document as follows:\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n1. Jo, L., Pelletier, J. M., & Harada, J. J. (2019). Central role of the LEAFY COTYLEDON1 transcription factor in seed development. Journal of Integrative Plant Biology, 61(5), 564–580. Portico. https://doi.org/10.1111/jipb.12806\n\n\n2. Jo, L., Pelletier, J. M., & Harada, J. J. (2019). Central role of the LEAFY COTYLEDON1 transcription factor in seed development. Journal of Integrative Plant Biology, 61(5), 564–580. Portico. https://doi.org/10.1111/jipb.12806\n```\n\n\n:::\n:::\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

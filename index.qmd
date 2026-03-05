@@ -1,0 +1,19 @@
+---
+title: ""
+format:
+  html:
+    page-layout: full
+    css: style.css
+    anchor-sections: false    
+---
+
+```{=html}
+<div style="position: relative; width: 100vw; left: 50%; transform: translateX(-50%); margin-bottom: -2rem;margin-top: -3em">
+  <img src="images/group_pictures/psr.jpeg" alt="PSR" style="width: 100%; display: block;filter: brightness(0.9);">
+  <div style="position: absolute; bottom: 10%; left: 50%; transform: translateX(-50%); text-align: center; width: 90%;">
+    <h2 style="color: white;font-size: 58px;">Welcome to The Jo Lab</h2>
+    <p style="color: white; width: 1000px; margin: 0 auto;font-size: 20px;"> We study functional genomics in plant environmental responses and development.</p>
+    <p style="color: white; width: 1000px; margin: 0 auto;font-size: 20px;"> We are part of the Plant Stress Resilience group at the Utrecht University in the Netherlands.</p>
+  </div>
+</div>
+```
