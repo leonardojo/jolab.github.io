@@ -44,12 +44,18 @@ for (k in sort(unique(pubs$year), decreasing = TRUE)) {
     corr_label <- if(pubs.year$correspondingauthor[i] == "yes") " <b>(<sup>†</sup>Corresponding Author)</b>" else ""
     coauthor_label <- if(pubs.year$cofirstauthor[i] == "yes") " <b>(<sup>§</sup>Co-first author)</b>" else ""
     
+    doi.link <- paste0(
+  '<a href="http://doi.org/', pubs.year$doi[i], '" target="_blank" rel="noopener noreferrer">', 
+  'http://doi.org/', pubs.year$doi[i], 
+  '</a>'
+)
+    
     # 4. Print the formatted lines
     cat(str_glue('
     <div style="margin-bottom: 20px; margin-top: 20px;>>
       <p style="font-size: 18px;font-color: black">
         <ul>
-          <li> {bold_ref}<span style="font-size: 16px;">{corr_label}</span><span style="font-size: 16px;">{coauthor_label}</span>
+          <li> {bold_ref} {doi.link}<span style="font-size: 16px;">{corr_label}</span><span style="font-size: 16px;">{coauthor_label}</span>
           </li>
         </ul>
       </p>
