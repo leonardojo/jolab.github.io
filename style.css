@@ -35,16 +35,16 @@ img {
 }
 
 .navbar-brand-container .navbar-logo {
-  height: 60px;       /* Increase this number until it looks right */
-  max-height: 80px;   /* Prevents it from breaking the navbar layout */
+  height: 80px;       /* Increase this number until it looks right */
+  max-height: 100px;   /* Prevents it from breaking the navbar layout */
   width: auto;
   margin-top: -2px;   /* Use negative margin if you need to center it vertically */
   margin-bottom: -2px;
 }
 
 .nav-footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   margin-top: 0;
   padding-top: 0.5rem;
 }
