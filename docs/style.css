@@ -11,6 +11,12 @@ body {
 
 #quarto-content {
   padding: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: unset !important;
+}
+
+.page-layout-article {
+  margin-bottom: 0 !important;
 }
 
 .columns {
@@ -42,14 +48,43 @@ img {
   margin-bottom: -2px;
 }
 
+footer.footer {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
 .nav-footer {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-top: 0;
-  padding-top: 0.5rem;
+  flex: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100% !important;
 }
 
 .page-rows-contents {
   padding-bottom: 0;
   margin-bottom: -3rem;
+}
+
+@media (max-width: 600px) {
+  .member-table,
+  .member-table tbody,
+  .member-table tr {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .member-photo {
+    display: block !important;
+    width: 50% !important;
+    margin: 0 auto 15px auto !important;
+    padding-right: 0 !important;
+    text-align: center !important;
+  }
+
+  .member-info {
+    display: block !important;
+    width: 100% !important;
+  }
 }
