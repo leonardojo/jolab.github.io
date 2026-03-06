@@ -48,18 +48,27 @@ img {
   margin-bottom: -2px;
 }
 
-footer.footer {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+.nav-footer {
+  display: block !important;
+  height: auto !important;
+  width: 100% !important;
+  text-align: center !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.nav-footer {
-  flex: 1 !important;
+#quarto-container {
   display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  height: 100% !important;
+  flex-direction: column !important;
+  min-height: 100vh !important;
+}
+
+#quarto-content {
+  flex: 1 !important; /* This takes the "filler" space */
+}
+
+footer.footer {
+  flex: 0 !important; /* This stays as small as possible */
 }
 
 .page-rows-contents {
