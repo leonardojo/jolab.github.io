@@ -14,9 +14,9 @@ website:
   title: "The Jo Lab"
   favicon: "images/logo/logo1.jpg"
   navbar:
-    logo: "images/logo/logo1.jpg"
+    logo: "images/logo/logo1.png"
     logo-href: "index.qmd"
-    logo-height: "120px"
+    logo-height: "140px"
     logo-width: "auto"
     background: "#008552"
     foreground: "white"
