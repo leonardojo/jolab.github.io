@@ -2,7 +2,6 @@
 title: "The Jo Lab - Our Research"
 format:
   html:
-    title-block-style: none
     page-layout: full
     css: style.css
     anchor-sections: false
