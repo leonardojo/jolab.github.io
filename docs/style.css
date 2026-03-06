@@ -3,6 +3,10 @@ body {
   font-family: sans-serif;
 }
 
+#title-block-header {
+  display: none;
+}
+
 /* Override Quarto's default max-width container */
 .page-layout-full .page-columns {
   max-width: 100% !important;

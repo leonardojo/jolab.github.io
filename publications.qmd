@@ -1,7 +1,8 @@
 ---
-title: ""
+title: "The Jo Lab - Lab Publications"
 format:
   html:
+    title-block-style: none
     page-layout: full
     css: style.css
     anchor-sections: false

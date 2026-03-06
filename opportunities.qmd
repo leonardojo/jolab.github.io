@@ -1,10 +1,11 @@
 ---
-title: ""
+title: "The Jo Lab - Open Positions"
 format:
   html:
+    title-block-style: none
     page-layout: full
-    anchor-sections: false
     css: style.css
+    anchor-sections: false
 ---
 
 

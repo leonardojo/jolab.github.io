@@ -1,10 +1,13 @@
 ---
+title: "The Jo Lab - Lab News"
 format:
   html:
+    title-block-style: none
     page-layout: full
     css: style.css
     anchor-sections: false
 ---
+
 
 <center>[ **Lab News**]{style="font-size: 24px;"}</center>
 

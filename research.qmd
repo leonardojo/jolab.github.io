@@ -1,10 +1,13 @@
 ---
-title: ""
+title: "The Jo Lab - Our Research"
 format:
   html:
+    title-block-style: none
     page-layout: full
     css: style.css
+    anchor-sections: false
 ---
+
 <center>[**Our Research**]{style="font-size: 24px;"}
 </p>
 <p style="color: #666; font-style: italic; margin-top: 0px; margin-bottom: 0px; margin-right: 12px; font-size: 18px;">
