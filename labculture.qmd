@@ -1,34 +1,33 @@
 ---
+title: "Lab Culture - The Jo Lab"
 format:
   html:
     page-layout: full
-    css: style.css
     anchor-sections: false
 ---
 
-<center>[**Lab Culture**]{style="font-size: 24px;"}</center>
+<div class="page-header"><h1 class="page-header__title">Lab Culture</h1></div>
 
 ------------------------------------------------------------------------
 
-<p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 10;">
-
+<p>
 <b>Growth, Kindness and Community</b>, these are the three words that best define the lab culture. First, I hope and expect that you will grow to become what you aspire to become. Starting a new educational journey (bachelors, masters, phd and postdoc) is extremely challenging. Sometimes (or most of the times), you will feel that you are not prepared for the challenges you will experience. And that's TOTALLY normal and fine! Every time that you enter the realm of "the unknown", be kind to yourself and use it is as an opportunity to learn something new. We will work together to overcome those challenges so you will look back and say: "Wow! I learned so much! I'm incredibly proud of who I became".
 </p>
 
-<p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 10;">
+<p>
 As you embark on this growth and learning journey, it's important to be aware that this is true for everyone in the group (including myself; believe, I'm lost most of the times!). Thus, I expect everyone to be kind and respectful to others. Mistakes and misalignments will eventually happen, but It's extremely important that everyone feels safe and valued. Moreover, it is important to be aware that everyone has their own unique story (nationality, age, gender identity, sexual orientation, religion, socioeconomic background, etc), therefore it is essential that we treat these differences with care and open-mindedness. Be kind to yourself and to others.
 </p>
 
-<p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 10;">
+<p>
 Finally, I'm someone who believes that being part of a team means being invested in its success and wellbeing. I really hope we establish and maintain a sense of community where supporting each other is the norm, not the exception. It is important that we all think communally about each other's growth and not about only your own self. That means sharing knowledge, asking/giving advice, and ensuring no one has to navigate this learning journey alone. Whether we're troubleshooting a failed experiment or celebrating a win, we do it together.
 </p>
 
-<div style="height: 50px;"></div> <center>
-  <span style="font-size: 24px; font-weight: bold;">Jo Lab Handbook</span>
-</center>
+<div style="height: 50px;"></div>
+
+<div class="page-header"><h1 class="page-header__title">Jo Lab Handbook</h1></div>
 
 ------------------------------------------------------------------------
 
-<p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 0;">
-With inspiration of many other lab handbooks, I compiled a set of expectations and lab rules in this <a href="data/labhandbook.pdf">Lab Handbook</a>. Since I was heavily inspired by other open source Lab Handbooks, I’m sharing a PDF of the handbook that is free to use for inspiration to other labs.
+<p>
+With inspiration of many other lab handbooks, I compiled a set of expectations and lab rules in this <a href="data/labhandbook.pdf">Lab Handbook</a>. Since I was heavily inspired by other open source Lab Handbooks, I'm sharing a PDF of the handbook that is free to use for inspiration to other labs.
 </p>

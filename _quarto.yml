@@ -6,8 +6,13 @@ format:
   html:
     theme: pulse
     toc: false
+    css: style.css
+    include-after-body: scroll-observer.js
+
 
 website:
+  title: "The Jo Lab"
+  favicon: "images/logo/logo1.jpg"
   navbar:
     logo: "images/logo/logo1.jpg"
     logo-href: "index.qmd"

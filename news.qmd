@@ -1,14 +1,16 @@
 ---
+title: "Lab News - The Jo Lab"
 format:
   html:
     page-layout: full
-    css: style.css
     anchor-sections: false
 ---
 
-<center>[ **Lab News**]{style="font-size: 24px;"}</center>
+<div class="page-header"><h1 class="page-header__title">Lab News</h1></div>
 
 ------------------------------------------------------------------------
+
+<div class="news-entry fade-in">
 
 ### **February 1st, 2026**
 #### **The Jo Lab started!**
@@ -20,7 +22,11 @@ I'm super excited to join the Plant Stress Resilience group chaired by [**Rashmi
 
 ![](images/news/news002.jpeg){width="600"}
 
+</div>
+
 ------------------------------------------------------------------------
+
+<div class="news-entry fade-in">
 
 ### **November 1st, 2025**
 #### **Leonardo Jo was awarded the prestigious VENI Grant**
@@ -30,3 +36,5 @@ The Veni Grant is part of the NWO Talent Program and it is aimed at newly promot
 I'm very honored to have received this grant. We will focus in understanding the role of of pioneer factors in specifying chromatin accessible domains during developmental transitions.
 
 [**More Information**](https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme/projects-veni/veni-2024)
+
+</div>

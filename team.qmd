@@ -1,14 +1,13 @@
 ---
-title: ""
+title: "Our Team - The Jo Lab"
 format:
   html:
     page-layout: full
     anchor-sections: false
-    css: style.css
 ---
 
 
-<center>[**Our Team**]{style="font-size: 24px;"}</center>
+<div class="page-header"><h1 class="page-header__title">Our Team</h1></div>
 
 ------------------------------------------------------------------------
 
@@ -21,25 +20,23 @@ library(tidyverse)
 pi <- read_xlsx("data/team.xlsx") %>%
   filter(position == "pi")
 
-cat('<center>[**Principal Investigator**]{style="font-size: 24px;"}</center>')
-# 1. Open the Quarto wide container
+cat('<div class="page-header"><h1 class="page-header__title">Principal Investigator</h1></div>')
+
 cat(str_glue('
-<div style="margin-bottom: 20px; margin-top: 20px;">
-  <table style="width: 100%; border-collapse: collapse; margin-bottom: 30px; background: transparent;">
-    <tr>
-      <td style="width: 20%; vertical-align: top; padding-right: 20px;">
-        <img src="{pi$photo}" alt="Profile Photo" style="width: 100%; border-radius: 5%;">
-      </td>
-      <td style="width: 80%; vertical-align: top;">
-        <h3 style="margin-top: 0; margin-bottom: 5px;">{pi$name} <span class="fi fi-br" style="transform: scale(0.7); display: inline-block;"></span><span class="fi fi-kr" style="transform: scale(0.7); display: inline-block;"></span></h3>
-        {if (!is.na(pi$contact)) paste0(\'<a href="mailto:\', pi$contact, \'" style="color:#444;margin-right:10px;"><i class="bi bi-envelope-fill"></i></a>\') else ""}
-        {if (!is.na(pi$linkedin)) paste0(\'<a href="https://\', pi$linkedin, \'" style="color:#0077b5;margin-right:10px;"><i class="bi bi-linkedin"></i></a>\') else ""}
-        {if (!is.na(pi$bluesky)) paste0(\'<a href="https://\', pi$bluesky, \'" style="color:#0085ff;margin-right:10px;"><i class="bi bi-bluesky"></i></a>\') else ""}
-        <p style="color:#666; font-style:italic; margin-bottom:15px;">{pi$subheading}</p>
-        <p style="text-align:justify; line-height:1.5; margin-top:10px;font-size: 16px;">{pi$description}</p>
-      </td>
-    </tr>
-  </table>
+<div class="member-card fade-in">
+<div>
+<img src="{pi$photo}" alt="Profile Photo" class="member-card__photo">
+</div>
+<div>
+<h3 class="member-card__name">{pi$name} <span class="fi fi-br"></span><span class="fi fi-kr"></span></h3>
+<div class="member-card__links">
+{if (!is.na(pi$contact)) paste0(\'<a href="mailto:\', pi$contact, \'"><i class="bi bi-envelope-fill"></i></a>\') else ""}
+{if (!is.na(pi$linkedin)) paste0(\'<a href="https://\', pi$linkedin, \'"><i class="bi bi-linkedin"></i></a>\') else ""}
+{if (!is.na(pi$bluesky)) paste0(\'<a href="https://\', pi$bluesky, \'"><i class="bi bi-bluesky"></i></a>\') else ""}
+</div>
+<p class="member-card__role">{pi$subheading}</p>
+<p class="member-card__bio">{pi$description}</p>
+</div>
 </div>
 '))
 
@@ -57,28 +54,26 @@ current <- read_xlsx("data/team.xlsx") %>%
 
 if (nrow(current) > 0) {
 
-cat('<center>[**Current members**]{style="font-size: 24px;"}</center>')
-  
-for (k in 1:nrow(current)) { 
-  
+cat('<div class="page-header"><h1 class="page-header__title">Current members</h1></div>')
+
+for (k in 1:nrow(current)) {
+
 current.member <- current[k,]
 cat(str_glue('
-<div style="margin-bottom: 20px; margin-top: 20px;">
-  <table style="width: 100%; border-collapse: collapse; margin-bottom: 30px; background: transparent;">
-    <tr>
-      <td style="width: 20%; vertical-align: top; padding-right: 20px;">
-        <img src="{current.member$photo}" alt="Profile Photo" style="width: 100%; border-radius: 5%;">
-      </td>
-      <td style="width: 80%; vertical-align: top;">
-        <h3 style="margin-top: 0; margin-bottom: 5px;">{current.member$name} <span class="fi fi-{current.member$nation}" style="transform: scale(0.7); display: inline-block;"></span></h3>
-        {if (!is.na(current.member$contact)) paste0(\'<a href="mailto:\', current.member$contact, \'" style="color:#444;margin-right:10px;"><i class="bi bi-envelope-fill"></i></a>\') else ""}
-        {if (!is.na(current.member$linkedin)) paste0(\'<a href="https://\', current.member$linkedin, \'" style="color:#0077b5;margin-right:10px;"><i class="bi bi-linkedin"></i></a>\') else ""}
-        {if (!is.na(current.member$bluesky)) paste0(\'<a href="https://\', current.member$bluesky, \'" style="color:#0085ff;margin-right:10px;"><i class="bi bi-bluesky"></i></a>\') else ""}
-        <p style="color:#666; font-style:italic; margin-bottom:15px;">{current.member$subheading}</p>
-        <p style="text-align:justify; line-height:1.5; margin-top:10px;font-size: 18px;">{current.member$description}</p>
-      </td>
-    </tr>
-  </table>
+<div class="member-card fade-in">
+<div>
+<img src="{current.member$photo}" alt="Profile Photo" class="member-card__photo">
+</div>
+<div>
+<h3 class="member-card__name">{current.member$name} <span class="fi fi-{current.member$nation}"></span></h3>
+<div class="member-card__links">
+{if (!is.na(current.member$contact)) paste0(\'<a href="mailto:\', current.member$contact, \'"><i class="bi bi-envelope-fill"></i></a>\') else ""}
+{if (!is.na(current.member$linkedin)) paste0(\'<a href="https://\', current.member$linkedin, \'"><i class="bi bi-linkedin"></i></a>\') else ""}
+{if (!is.na(current.member$bluesky)) paste0(\'<a href="https://\', current.member$bluesky, \'"><i class="bi bi-bluesky"></i></a>\') else ""}
+</div>
+<p class="member-card__role">{current.member$subheading}</p>
+<p class="member-card__bio">{current.member$description}</p>
+</div>
 </div>
 '))
 
@@ -99,34 +94,30 @@ alumni <- read_xlsx("data/team.xlsx") %>%
   arrange(position)
 
 if (nrow(alumni) > 0) {
-  cat('<center>[**Alumni members**]{style="font-size: 24px;"}</center>')
-  cat('<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 20px 0; align-items: start;">')
-  
+  cat('<div class="page-header"><h1 class="page-header__title">Alumni members</h1></div>')
+  cat('<div class="alumni-grid fade-in-stagger">')
+
   for (k in 1:nrow(alumni)) {
     alumni.member <- alumni[k,]
-    
+
     icons <- paste0(
-      if (!is.na(alumni.member$contact)) paste0('<a href="mailto:', alumni.member$contact, '" style="color:#444;margin-right:10px;"><i class="bi bi-envelope-fill"></i></a>') else "",
-      if (!is.na(alumni.member$linkedin)) paste0('<a href="https://', alumni.member$linkedin, '" style="color:#0077b5;margin-right:10px;"><i class="bi bi-linkedin"></i></a>') else "",
-      if (!is.na(alumni.member$bluesky)) paste0('<a href="https://', alumni.member$bluesky, '" style="color:#0085ff;margin-right:10px;"><i class="bi bi-bluesky"></i></a>') else ""
+      if (!is.na(alumni.member$contact)) paste0('<a href="mailto:', alumni.member$contact, '"><i class="bi bi-envelope-fill"></i></a>') else "",
+      if (!is.na(alumni.member$linkedin)) paste0('<a href="https://', alumni.member$linkedin, '"><i class="bi bi-linkedin"></i></a>') else "",
+      if (!is.na(alumni.member$bluesky)) paste0('<a href="https://', alumni.member$bluesky, '"><i class="bi bi-bluesky"></i></a>') else ""
     )
-    
+
     cat(str_glue('
-    <div style="text-align: center; padding: 10px;">
-      <img src="{alumni.member$photo}" alt="Profile Photo"
-           style="width: 50%; border-radius: 10%; display: block; margin: 0 auto;">
-      <h3 style="margin-top: 8px; margin-bottom: 5px; font-size: 18px;">
-        {alumni.member$name}
-        <span class="fi fi-{alumni.member$nation}" style="transform: scale(0.7); display: inline-block;"></span>
-      </h3>
-      <div style="margin-top: 5px;">{icons}</div>
-      <div style="margin-top: 5px;">{alumni.member$subheading}</div>
-    </div>
-    '))
+<div class="alumni-card">
+<img src="{alumni.member$photo}" alt="Profile Photo" class="alumni-card__photo">
+<h3 class="alumni-card__name">{alumni.member$name} <span class="fi fi-{alumni.member$nation}"></span></h3>
+<div class="alumni-card__links">{icons}</div>
+<div class="alumni-card__role">{alumni.member$subheading}</div>
+</div>
+'))
   }
-  
+
   cat('</div>')
-  
+
 } else { invisible(NULL) }
 ```
 

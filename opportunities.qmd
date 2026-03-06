@@ -1,30 +1,30 @@
 ---
-title: ""
+title: "Open Positions - The Jo Lab"
 format:
   html:
     page-layout: full
     anchor-sections: false
-    css: style.css
 ---
 
-
-<center>[**Open Positions**]{style="font-size: 24px;"}</center>
-
-------------------------------------------------------------------------
-
-<p style="text-align: justify; color: black; font-size: 22px; margin-top: 0; margin-bottom: 10;">Timeline for future positions</p>
-<p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 10;">
-I expect to announce 1 PhD position and 1 Postdoc position in the spring of 2026 (April-May). Stay tuned! </p>
+<div class="page-header"><h1 class="page-header__title">Open Positions</h1></div>
 
 ------------------------------------------------------------------------
 
-<p style="text-align: justify; color: black; font-size: 22px; margin-top: 0; margin-bottom: 10;">Student internships</p>
-<p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 10;">
+<div class="opportunity-card fade-in">
+<p class="opportunity-card__title">Timeline for future positions</p>
+<p class="opportunity-card__text">
+I expect to announce 1 PhD position and 1 Postdoc position in the spring of 2026 (April-May). Stay tuned!</p>
+</div>
+
+<div class="opportunity-card fade-in">
+<p class="opportunity-card__title">Student internships</p>
+<p class="opportunity-card__text">
 Our group is always open for masters or bachelors internships! We can provide internships that will allow you to explore different aspects of functional genomics, epigenetics and bioinformatics in plants. If you are eager to learn, please email me (l.jo@uu.nl), and we can discuss potential projects.</p>
+</div>
 
-------------------------------------------------------------------------
-
-<p style="text-align: justify; color: black; font-size: 22px; margin-top: 0; margin-bottom: 10;">Other opportunities</p>
-<p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 10;">
+<div class="opportunity-card fade-in">
+<p class="opportunity-card__title">Other opportunities</p>
+<p class="opportunity-card__text">
 We are always interested in hearing from motivated researchers who want to explore different aspects of functional genomics and epigenetics to understand plant environmental responses. I am open to discuss possibilities to support your application for personal postdoctoral grants. Some possibilities include: ERC Marie Skłodowska-Curie Actions, EMBO Fellowship and the NWO Veni grants.
 If you would like to discuss possibilities, please send me your CV and motivation letter to l.jo@uu.nl.</p>
+</div>

@@ -1,9 +1,98 @@
-body {
-  background-color: white;
-  font-family: sans-serif;
+/* ============================================
+   Jo Lab Website - Design System
+   ============================================ */
+
+/* --- Design Tokens --- */
+:root {
+  /* Brand colors */
+  --jo-green: #008552;
+  --jo-green-light: #e6f4ed;
+  --jo-green-dark: #006b42;
+
+  /* Grays */
+  --jo-gray-700: #374151;
+  --jo-gray-500: #6b7280;
+  --jo-gray-300: #d1d5db;
+  --jo-gray-100: #f3f4f6;
+
+  /* Typography */
+  --font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: 1.5rem;
+  --fs-3xl: 2rem;
+  --lh-tight: 1.3;
+  --lh-normal: 1.6;
+  --lh-relaxed: 1.8;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
 }
 
-/* Override Quarto's default max-width container */
+/* --- Base Styles --- */
+body {
+  background-color: white;
+  font-family: var(--font-family);
+  color: var(--jo-gray-700);
+  line-height: var(--lh-normal);
+}
+
+p {
+  color: var(--jo-gray-500);
+  font-size: var(--fs-lg);
+  line-height: var(--lh-relaxed);
+  text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--jo-gray-700);
+  line-height: var(--lh-tight);
+}
+
+a {
+  color: var(--jo-green);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--jo-green-dark);
+}
+
+img {
+  max-width: 100%;
+  border-radius: var(--radius-md);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--jo-gray-300);
+  margin: var(--space-2xl) 0;
+}
+
+/* --- Quarto Overrides --- */
 .page-layout-full .page-columns {
   max-width: 100% !important;
   padding: 0 !important;
@@ -25,31 +114,407 @@ body {
   flex: 1;
 }
 
-p {
-  color: #6b7280;
-}
-
-img {
-  max-width: 100%;
-  border-radius: 8px;
-}
-
+/* Navbar logo */
 .navbar-brand-container .navbar-logo {
-  height: 60px;       /* Increase this number until it looks right */
-  max-height: 80px;   /* Prevents it from breaking the navbar layout */
+  height: 60px;
+  max-height: 80px;
   width: auto;
-  margin-top: -2px;   /* Use negative margin if you need to center it vertically */
+  margin-top: -2px;
   margin-bottom: -2px;
 }
 
+/* Footer */
 .nav-footer {
-  padding-top: 10px;
+  padding-top: 0.5rem;
   padding-bottom: 10px;
   margin-top: 0;
-  padding-top: 0.5rem;
 }
 
 .page-rows-contents {
   padding-bottom: 0;
   margin-bottom: -3rem;
+}
+
+/* --- Layout Utilities --- */
+.content-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+}
+
+.section-divider {
+  border: none;
+  border-top: 1px solid var(--jo-gray-300);
+  margin: var(--space-2xl) 0;
+}
+
+/* --- Page Header --- */
+.page-header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.page-header__title {
+  font-size: var(--fs-2xl);
+  font-weight: 700;
+  color: var(--jo-gray-700);
+  margin: 0;
+}
+
+.page-header__subtitle {
+  font-size: var(--fs-lg);
+  color: var(--jo-gray-500);
+  font-style: italic;
+  margin-top: var(--space-xs);
+}
+
+/* --- Hero Banner --- */
+.hero {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  aspect-ratio: 21 / 9;
+  overflow: hidden;
+}
+
+.hero__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 0;
+}
+
+.hero__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: var(--space-xl);
+}
+
+.hero__title {
+  color: white;
+  font-size: clamp(1.5rem, 5vw, 3.5rem);
+  margin: 0;
+  animation: hero-fade-up 1s ease-out;
+}
+
+.hero__text {
+  color: white;
+  max-width: 800px;
+  margin: var(--space-md) auto 0 auto;
+  font-size: clamp(0.9rem, 2vw, 1.25rem);
+  text-align: center;
+  animation: hero-fade-up 1s ease-out 0.2s both;
+}
+
+@keyframes hero-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --- Member Card (PI + Current Members) --- */
+.member-card {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-xl);
+  margin-top: var(--space-xl);
+  align-items: start;
+}
+
+.member-card__photo {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.member-card__name {
+  margin-top: 0;
+  margin-bottom: var(--space-xs);
+}
+
+.member-card__links a {
+  color: #444;
+  margin-right: 10px;
+  transition: color var(--transition-fast);
+}
+
+.member-card__links a:hover {
+  color: var(--jo-green);
+}
+
+.member-card__links a[href*="linkedin"] {
+  color: #0077b5;
+}
+
+.member-card__links a[href*="bsky"] {
+  color: #0085ff;
+}
+
+.member-card__role {
+  color: var(--jo-gray-500);
+  font-style: italic;
+  margin-bottom: var(--space-lg);
+  font-size: var(--fs-base);
+}
+
+.member-card__bio {
+  text-align: justify;
+  line-height: var(--lh-relaxed);
+  font-size: var(--fs-lg);
+  margin-top: var(--space-sm);
+}
+
+/* --- Alumni Grid --- */
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-xl);
+  margin: var(--space-xl) 0;
+  align-items: start;
+}
+
+.alumni-card {
+  text-align: center;
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  transition: box-shadow var(--transition-normal);
+}
+
+.alumni-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.alumni-card__photo {
+  width: 50%;
+  border-radius: 10%;
+  display: block;
+  margin: 0 auto;
+}
+
+.alumni-card__name {
+  margin-top: var(--space-sm);
+  margin-bottom: var(--space-xs);
+  font-size: var(--fs-lg);
+}
+
+.alumni-card__links a {
+  color: #444;
+  margin-right: 10px;
+  transition: color var(--transition-fast);
+}
+
+.alumni-card__links a:hover {
+  color: var(--jo-green);
+}
+
+.alumni-card__links a[href*="linkedin"] {
+  color: #0077b5;
+}
+
+.alumni-card__links a[href*="bsky"] {
+  color: #0085ff;
+}
+
+.alumni-card__role {
+  margin-top: var(--space-xs);
+  color: var(--jo-gray-500);
+  font-size: var(--fs-sm);
+}
+
+/* --- Research Sections --- */
+.research-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2xl);
+  margin: var(--space-xl) 0;
+  align-items: center;
+}
+
+.research-section--reversed {
+  direction: rtl;
+}
+
+.research-section--reversed > * {
+  direction: ltr;
+}
+
+.research-section__img {
+  width: 100%;
+  border-radius: var(--radius-md);
+}
+
+.research-section__title {
+  text-align: center;
+  font-family: 'Arial Black', sans-serif;
+  font-size: var(--fs-2xl);
+  color: var(--jo-gray-700);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-2xl);
+}
+
+.research-section__text {
+  text-align: justify;
+  color: var(--jo-gray-500);
+  font-size: var(--fs-lg);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* --- Publications --- */
+.pub-year-heading {
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  color: var(--jo-green);
+  border-bottom: 2px solid var(--jo-green-light);
+  padding-bottom: var(--space-sm);
+  margin-top: var(--space-2xl);
+  margin-bottom: var(--space-lg);
+}
+
+.pub-entry {
+  margin-bottom: var(--space-xl);
+  padding-left: var(--space-lg);
+  border-left: 3px solid var(--jo-green-light);
+  font-size: var(--fs-lg);
+  color: var(--jo-gray-700);
+  line-height: var(--lh-relaxed);
+}
+
+.pub-entry p {
+  color: var(--jo-gray-700);
+}
+
+/* --- News Entries --- */
+.news-entry {
+  margin-bottom: var(--space-2xl);
+}
+
+.news-entry h3 {
+  color: var(--jo-gray-700);
+  margin-bottom: var(--space-xs);
+}
+
+.news-entry h4 {
+  color: var(--jo-green);
+  margin-top: 0;
+}
+
+.news-entry img {
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+/* --- Opportunity Cards --- */
+.opportunity-card {
+  border-left: 4px solid var(--jo-green);
+  padding: var(--space-lg) var(--space-xl);
+  margin-bottom: var(--space-xl);
+  background: var(--jo-gray-100);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.opportunity-card__title {
+  font-size: var(--fs-xl);
+  color: var(--jo-gray-700);
+  margin-top: 0;
+  margin-bottom: var(--space-sm);
+}
+
+.opportunity-card__text {
+  font-size: var(--fs-lg);
+  color: var(--jo-gray-500);
+  margin: 0;
+}
+
+/* --- Scroll Animations --- */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in-stagger > * {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-stagger.visible > *:nth-child(1) { transition-delay: 0s; opacity: 1; transform: translateY(0); }
+.fade-in-stagger.visible > *:nth-child(2) { transition-delay: 0.1s; opacity: 1; transform: translateY(0); }
+.fade-in-stagger.visible > *:nth-child(3) { transition-delay: 0.2s; opacity: 1; transform: translateY(0); }
+.fade-in-stagger.visible > *:nth-child(4) { transition-delay: 0.3s; opacity: 1; transform: translateY(0); }
+.fade-in-stagger.visible > *:nth-child(5) { transition-delay: 0.4s; opacity: 1; transform: translateY(0); }
+.fade-in-stagger.visible > *:nth-child(6) { transition-delay: 0.5s; opacity: 1; transform: translateY(0); }
+.fade-in-stagger.visible > *:nth-child(n+7) { transition-delay: 0.6s; opacity: 1; transform: translateY(0); }
+
+/* --- Flag Icons Fix --- */
+.fi {
+  transform: scale(0.7);
+  display: inline-block;
+}
+
+/* --- Responsive --- */
+@media (max-width: 1024px) {
+  .alumni-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .research-section {
+    grid-template-columns: 1fr;
+  }
+  .research-section--reversed {
+    direction: ltr;
+  }
+}
+
+@media (max-width: 768px) {
+  .member-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .member-card__photo {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .member-card__bio {
+    text-align: left;
+  }
+  .alumni-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (max-width: 480px) {
+  .alumni-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    aspect-ratio: 4 / 3;
+  }
 }
