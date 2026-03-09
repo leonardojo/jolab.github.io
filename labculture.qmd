@@ -1,5 +1,5 @@
 ---
-title: "The Jo Lab - Lab Culture"
+title: "The Jo Lab - Lab Mission"
 format:
   html:
     title-block-style: none
@@ -7,6 +7,17 @@ format:
     css: style.css
     anchor-sections: false
 ---
+
+<center>[**Lab Mission**]{style="font-size: 24px;"}</center>
+
+------------------------------------------------------------------------
+
+<p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 10;">
+
+Our main goal is to understand the <b>basic rules that determine transcriptional programs in plants.</b> Due to their sessile nature, plants developed special strategies to timely respond and acclimate to a dynamic and changing environment. When encountering stressful conditions, plants have the capability to undergo a complete transcriptional reprogramming to adjust their metabolism, growth, and development to acclimate and survive through environmental challenges. We are interested in a wide range of environmental responses with the core question in understanding how these changes are coordinated at a transcriptional and chromatin level. We seek to build a solid scientific foundation in establishing methods that can help us understand plant environmental responses. Additionally, we hope to train the next generation of plant biologists to become more proficient in functional genomics and bioinformatics. 
+</p>
+
+------------------------------------------------------------------------
 
 <center>[**Lab Culture**]{style="font-size: 24px;"}</center>
 
@@ -25,12 +36,14 @@ As you embark on this growth and learning journey, it's important to be aware th
 Finally, I'm someone who believes that being part of a team means being invested in its success and wellbeing. I really hope we establish and maintain a sense of community where supporting each other is the norm, not the exception. It is important that we all think communally about each other's growth and not about only your own self. That means sharing knowledge, asking/giving advice, and ensuring no one has to navigate this learning journey alone. Whether we're troubleshooting a failed experiment or celebrating a win, we do it together.
 </p>
 
-<div style="height: 50px;"></div> <center>
-  <span style="font-size: 24px; font-weight: bold;">Jo Lab Handbook</span>
-</center>
+------------------------------------------------------------------------
+
+<center>[**Lab Handbook**]{style="font-size: 24px;"}</center>
 
 ------------------------------------------------------------------------
 
 <p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 0;">
-With inspiration of many other lab handbooks, I compiled a set of expectations and lab rules in this <a href="data/labhandbook.pdf">Lab Handbook</a>. Since I was heavily inspired by other open source Lab Handbooks, I’m sharing a PDF of the handbook that is free to use for inspiration to other labs.
+With inspiration of many other lab handbooks, I compiled a set of expectations and lab rules in this 
+<a href="data/labhandbook.pdf" target="_blank" rel="noopener noreferrer">Lab Handbook</a>. 
+This handbook was created based on many great Lab handbooks out there (<a href="https://www.coakerlab.org/mentoring-compact--graduate-student.html" target="_blank" rel="noopener noreferrer">Dr. Gitta Coaker (UC Davis)</a>, <a href="https://www.thecoxlab.org/lab-culture" target="_blank" rel="noopener noreferrer">Dr. Kevin Cox Jr. (WashU) </a> and Dr. Emilyn Matsumura (WUR)). Thus, feel free to copy it and use it as inspiration as well.
 </p>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Jo Lab - Lab Culture</title>
+<title>The Jo Lab - Lab Mission</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,6 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/logo/logo1_square.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -106,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./labculture.html" aria-current="page"> 
-<span class="menu-text">Lab Culture</span></a>
+<span class="menu-text">Lab Mission</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./opportunities.html"> 
@@ -125,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">The Jo Lab - Lab Culture</h1></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">The Jo Lab - Lab Mission</h1></header>
 
 <header id="title-block-header">
 
@@ -133,6 +134,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<center>
+<span style="font-size: 24px;"><strong>Lab Mission</strong></span>
+</center>
+<hr>
+<p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 10;">
+Our main goal is to understand the <b>basic rules that determine transcriptional programs in plants.</b> Due to their sessile nature, plants developed special strategies to timely respond and acclimate to a dynamic and changing environment. When encountering stressful conditions, plants have the capability to undergo a complete transcriptional reprogramming to adjust their metabolism, growth, and development to acclimate and survive through environmental challenges. We are interested in a wide range of environmental responses with the core question in understanding how these changes are coordinated at a transcriptional and chromatin level. We seek to build a solid scientific foundation in establishing methods that can help us understand plant environmental responses. Additionally, we hope to train the next generation of plant biologists to become more proficient in functional genomics and bioinformatics.
+</p>
+<hr>
 <center>
 <span style="font-size: 24px;"><strong>Lab Culture</strong></span>
 </center>
@@ -146,15 +155,13 @@ As you embark on this growth and learning journey, it’s important to be aware 
 <p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 10;">
 Finally, I’m someone who believes that being part of a team means being invested in its success and wellbeing. I really hope we establish and maintain a sense of community where supporting each other is the norm, not the exception. It is important that we all think communally about each other’s growth and not about only your own self. That means sharing knowledge, asking/giving advice, and ensuring no one has to navigate this learning journey alone. Whether we’re troubleshooting a failed experiment or celebrating a win, we do it together.
 </p>
-<div style="height: 50px;">
-
-</div>
+<hr>
 <center>
-<span style="font-size: 24px; font-weight: bold;">Jo Lab Handbook</span>
+<span style="font-size: 24px;"><strong>Lab Handbook</strong></span>
 </center>
 <hr>
 <p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 0;">
-With inspiration of many other lab handbooks, I compiled a set of expectations and lab rules in this <a href="data/labhandbook.pdf">Lab Handbook</a>. Since I was heavily inspired by other open source Lab Handbooks, I’m sharing a PDF of the handbook that is free to use for inspiration to other labs.
+With inspiration of many other lab handbooks, I compiled a set of expectations and lab rules in this <a href="data/labhandbook.pdf" target="_blank" rel="noopener noreferrer">Lab Handbook</a>. This handbook was created based on many great Lab handbooks out there (<a href="https://www.coakerlab.org/mentoring-compact--graduate-student.html" target="_blank" rel="noopener noreferrer">Dr.&nbsp;Gitta Coaker (UC Davis)</a>, <a href="https://www.thecoxlab.org/lab-culture" target="_blank" rel="noopener noreferrer">Dr.&nbsp;Kevin Cox Jr.&nbsp;(WashU) </a> and Dr.&nbsp;Emilyn Matsumura (WUR)). Thus, feel free to copy it and use it as inspiration as well.
 </p>
 
 
@@ -240,6 +247,11 @@ With inspiration of many other lab handbooks, I compiled a set of expectations a
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

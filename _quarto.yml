@@ -6,8 +6,10 @@ format:
   html:
     theme: pulse
     toc: false
+    link-external-newwindow: true
 
 website:
+  favicon: "images/logo/logo1_square.png"
   navbar:
     logo: "images/logo/logo1.png"
     logo-href: "index.qmd"
@@ -28,7 +30,7 @@ website:
       - href: publications.qmd
         text: Publications
       - href: labculture.qmd 
-        text: Lab Culture        
+        text: Lab Mission        
       - href: opportunities.qmd
         text: Open Positions
         
