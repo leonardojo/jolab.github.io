@@ -14,7 +14,7 @@ website:
   navbar:
     logo: "images/logo/logo1.png"
     logo-href: "index.qmd"
-    logo-height: "140px"
+    logo-height: "100px"
     logo-width: "auto"
     background: "#008552"
     foreground: "white"
