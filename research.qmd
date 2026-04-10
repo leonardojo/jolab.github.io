@@ -21,7 +21,7 @@ Functional Genomics in Plant Environmental Responses and Development
 ```{=html}
 <div style="margin-bottom: 20px; margin-top: 20px;">
   <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="images/research/research01.gif?v=2" alt="Research summary 01" style="width: 100%; max-width: 800px; margin-bottom: 10px;">
+  <img src="images/research/research01.gif" alt="Research summary 01" style="width: 100%; max-width: 800px; margin-bottom: 10px;">
     <div style="width: 100%;">
       <h2 style="margin-top: 20px; margin-bottom: 40px; text-align: center; font-family: 'Arial Black'; font-size: 24px; color: black;">How different cell identities shape unique transcriptional responses in plants?
 </h2>
@@ -40,7 +40,7 @@ Due to their sessile nature, plants developed special strategies to timely respo
 ```{=html}
 <div style="margin-bottom: 20px; margin-top: 20px;">
   <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="images/research/research02.gif?v=3" alt="Research summary 02" style="width: 100%; max-width: 600px; margin-bottom: 10px;">
+  <img src="images/research/research02.gif" alt="Research summary 02" style="width: 100%; max-width: 600px; margin-bottom: 10px;">
     <div style="width: 100%;">
       <h2 style="margin-top: 20px; margin-bottom: 40px; text-align: center; font-family: 'Arial Black'; font-size: 24px; color: black;">How Plants Reprogram Their Transcriptome in Response to Environmental Cues?</h2>
       <p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 0;">
@@ -57,7 +57,7 @@ In my group we combine functional genomics and single-cell technologies to under
 ```{=html}
 <div style="margin-bottom: 20px; margin-top: 20px;">
   <div style="display: flex; flex-direction: column; align-items: center;">
-  <img src="images/research/research03.gif?v=2" alt="Research summary 03" style="width: 100%; max-width: 600px; margin-bottom: 10px;">
+  <img src="images/research/research03.gif" alt="Research summary 03" style="width: 100%; max-width: 600px; margin-bottom: 10px;">
     <div style="width: 100%;">
       <h2 style="margin-top: 20px; margin-bottom: 40px; text-align: center; font-family: 'Arial Black'; font-size: 24px; color: black;">Using functional genomics to quantitatively engineer crop traits by genome editing</h2>
       <p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 0;">
