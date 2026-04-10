@@ -44,7 +44,7 @@ Due to their sessile nature, plants developed special strategies to timely respo
     <div style="width: 100%;">
       <h2 style="margin-top: 20px; margin-bottom: 40px; text-align: center; font-family: 'Arial Black'; font-size: 24px; color: black;">How Plants Reprogram Their Transcriptome in Response to Environmental Cues?</h2>
       <p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 0;">
-My research has been motivated by a fundamental question: how does the environment shape the onset of new transcriptional programs in plants? Due to their sessile nature, plants developed special strategies to timely respond and acclimate to a dynamic and changing environment. When encountering stressful conditions, plants have the capability to undergo a complete transcriptional reprogramming to adjust their metabolism, growth, and development to acclimate and survive through environmental challenges.</p>
+My research has been motivated by a fundamental question: how does the environment shape the onset of new transcriptional programs in plants?</p>
       <p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 0;">
 In my group we combine functional genomics and single-cell technologies to understand how environmental factors shape plant responses through the lens of transcriptional and chromatin organization.</p>
     </div>
