@@ -76,7 +76,7 @@ cat(str_glue('
   <table class="member-table" style="width: 100%; border-collapse: collapse; margin-bottom: 30px; background: transparent;">
     <tr>
       <td class="member-photo" style="width: 20%; vertical-align: top; padding-right: 20px;">
-        <img src="{current.member$photo}" alt="Profile Photo" style="width: 100%; border-radius: 5%;">
+        <img src="{current.member$photo}" alt="Profile Photo" style="width: 90%; border-radius: 5%;">
       </td>
       <td class="member-info" style="width: 80%; vertical-align: top;">
         <h3 style="margin-top: 0; margin-bottom: 5px;">{current.member$name} <span class="fi fi-{current.member$nation}" style="transform: scale(0.7); display: inline-block;"></span></h3>
