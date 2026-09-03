@@ -13,6 +13,37 @@ format:
 
 ------------------------------------------------------------------------
 
+### **Sept 2026**
+#### **New Publications!**
+
+I'm very happy to announce two new publications!
+
+1) [Progressive oxygenation of developing leaves directs morphogenesis](https://www.science.org/doi/full/10.1126/sciadv.aef2430)
+2) [Cell-type-specific activation of broadly perceived effector-triggered immunity restricts pathogen invasion in plants](https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(26)00310-0)
+
+These are fruits of very nice collaborations from the groups of Daan Weits (UU) and Pingtao Ding (Leiden).
+Check out the links above to dive into the details of how plants oxygen gradients shape plant development and how immune responses are specified in unique cell types of leaves!
+
+
+------------------------------------------------------------------------
+
+### **Aug 2026**
+#### **Connecting with the Brazilian Plant Biology Community**
+Over the past few weeks, I had the pleasure and privilege of presenting some of my work at the 20th Brazilian Congress of Plant Physiology, organized by the Brazilian Society of Plant Physiology (SBFV), and at the Graduate Program in Plant Physiology at the Federal University of Viçosa. 
+It was a few weeks filled with great learning and inspiration!
+Ever since I left Brazil in 2012, it has always been a personal goal of mine to stay connected with Brazilian scientific community. I am a direct product of the efforts of the SBFV, federal universities, and Brazilian public policies, so I am deeply committed to contributing to the development of students in Brazil.
+Thank you so much for the invitation; you can always count on me for whatever you need!
+May this be just the beginning of a long-lasting partnership.
+
+![](images/news/aug2026_2.jpeg){fig-align="left" width="420"}
+![](images/news/aug2026_1.jpeg){fig-align="left" width="420"}
+
+![](images/news/aug2026_3.jpeg){fig-align="left" width="420"}
+![](images/news/aug2026_4.jpeg){fig-align="left" width="420"}
+
+
+------------------------------------------------------------------------
+
 ### **May 26th, 2026**
 #### **Leo was invited as a guest speaker at the EPS Get2Gether 2026!**
 
