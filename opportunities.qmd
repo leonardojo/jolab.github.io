@@ -17,9 +17,12 @@ format:
 <p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 10;">
 Our group is always open for masters or bachelors internships! We can provide internships that will allow you to explore different aspects of functional genomics, epigenetics and bioinformatics in plants. If you are eager to learn, please email me (l.jo@uu.nl), and we can discuss potential projects.</p>
 
+<p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 10;"><b>
+Important note: for student internships (bachelors and masters), we are only accepting students from Utrecht University or other Universities in the Netherlands. </b></p>
+
 ------------------------------------------------------------------------
 
 <p style="text-align: justify; color: black; font-size: 22px; margin-top: 0; margin-bottom: 10;">Other opportunities</p>
 <p style="text-align: justify; color: #666; font-size: 18px; margin-top: 0; margin-bottom: 10;">
 We are always interested in hearing from motivated researchers who want to explore different aspects of functional genomics and epigenetics to understand plant environmental responses. I am open to discuss possibilities to support your application for personal postdoctoral grants. Some possibilities include: ERC Marie Skłodowska-Curie Actions, EMBO Fellowship and the NWO Veni grants.
-If you would like to discuss possibilities, please send me your CV and motivation letter to l.jo@uu.nl.</p>
+If you would like to discuss possibilities, please send me your CV and motivation letter to l.jo@uu.nl with the title of the email: "POSTDOC: Enquiry about {grant-name}"</p>
